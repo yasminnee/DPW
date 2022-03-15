@@ -1,0 +1,97 @@
+body,html{
+    margin: 0;
+    font-family: sans-serif;
+    font-variant: normal;
+    background-color: rgb(192, 186, 201);
+}
+.header{
+    background-image: url(/image/thunderstorm-g8ac9beac6_1920.jpg);
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.in-img{
+    position: relative; 
+    float: right;
+    margin-top: 40px; 
+    margin-right: 45px;
+}
+
+.in-img-left{
+    position: relative;
+    float: left;
+    margin-top: 30px; 
+    margin-left: 45px;
+}
+
+.in-img-left :hover{
+    transition: width 1s;
+    width: 100px;
+}
+
+.topnav {
+    overflow: hidden; 
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    }
+
+.topnav a:hover {
+    background-color: rgb(119, 95, 165);
+    color: rgb(0, 0, 0);
+    }
+
+#opening{
+    color: white;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding: 25px;
+    height: 250px;
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(78, 35, 128);
+    border: none;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #292929;
+}
+
+.button:hover{
+    background-color: rgb(174, 157, 194);
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    position: absolute;
+    left: 0; 
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: #ffffff;
+    padding: 8px;
+    page-break-after: always;
+}
